@@ -1,0 +1,83 @@
+ /* For pop up */
+
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0f72e5;
+}
+
+.popup{
+    background-color: #ffffff;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: none;
+}
+.popup button{
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+/* For other parts */
+a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: #0f72e5;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.p{
+    width: 70vw;
+    height: 30vh;
+    margin: auto;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+.q{
+    width: 80vw;
+    height: 35vh;
+    margin: auto;
+    background-color: blueviolet;
+}
+.p div{
+    width: 10vw;
+    height: 15vh;
+    margin: auto;;
+    justify-content: space-evenly;
+}
+.p div:nth-of-type(1){
+    background-color: burlywood;
+}
+.p div:nth-of-type(2){
+    background-color: cornsilk;
+}
+.p div:nth-of-type(3){
+    background-color: crimson;
+}
